@@ -31,9 +31,15 @@ def recent_work(repos):
     for r in repos:
         if r["fork"] or r["private"] or r["archived"] or r["name"].lower() in SKIP:
             continue
-        desc = (r.get("description") or "").strip()
-        desc = f" — {desc}" if desc else ""
-        rows.append(f"- [{r['name']}]({r['html_url']}){desc} · {r['pushed_at'][:10]}")
+        try:
+            c = gh(f"https://api.github.com/repos/{USER}/{r['name']}/commits?per_page=1")[0]
+            msg = c["commit"]["message"].splitlines()[0]
+            msg = msg if len(msg) <= 60 else msg[:57] + "…"
+            what = f" — [{msg}]({c['html_url']})"
+            date = c["commit"]["committer"]["date"][:10]
+        except Exception:
+            what, date = "", r["pushed_at"][:10]
+        rows.append(f"- **[{r['name']}]({r['html_url']})**{what} · {date}")
         if len(rows) == N:
             break
     return rows or ["- (pronto)"]
