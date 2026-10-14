@@ -21,12 +21,16 @@ Construyo pipelines de datos, servicios Spring Boot y flujos de trabajo con **ag
 
 #### 🔨 Trabajo reciente
 <!-- recent_work starts -->
+- [music-quizz](https://github.com/AlbaAsca/music-quizz) · 2025-11-19
+- [astro-cheatsheet](https://github.com/AlbaAsca/astro-cheatsheet) · 2025-06-01
+- [java-microservices](https://github.com/AlbaAsca/java-microservices) · 2025-06-01
 <!-- recent_work ends -->
 
 </td><td valign="top" width="50%">
 
 #### 📝 Aprendido hoy ([todo](https://github.com/AlbaAsca/til))
 <!-- til starts -->
+- [Borrar datos privados de todo el historial de git](https://github.com/AlbaAsca/til/blob/main/git/borrar-datos-privados-del-historial.md) · 2026-10-14
 <!-- til ends -->
 
 </td></tr></table>
