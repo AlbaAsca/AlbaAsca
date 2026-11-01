@@ -35,6 +35,7 @@ Un equipo de agentes (consultor, arquitecto, desarrollador, tester…) trabajand
 
 #### 🔨 Trabajo reciente
 <!-- recent_work starts -->
+- **[store-sales-forecasting](https://github.com/AlbaAsca/store-sales-forecasting)** — [docs(learnings): record Kaggle outcomes of V-037, V-038, …](https://github.com/AlbaAsca/store-sales-forecasting/commit/d99a9a0f657f3f77664c347ecb940b68902f03e3) · 2026-11-01
 - **[agent-board](https://github.com/AlbaAsca/agent-board)** — [perf: per-role turn caps for autonomous agents](https://github.com/AlbaAsca/agent-board/commit/8163dcca785f5a60ec8f0eeb0ecf520fe260e66a) · 2026-10-18
 - **[agent-project-template](https://github.com/AlbaAsca/agent-project-template)** — [docs: add English summary to README](https://github.com/AlbaAsca/agent-project-template/commit/6aa61f2fe0c06a4f30ff2fbfb05538a3f6720c84) · 2026-10-14
 <!-- recent_work ends -->
@@ -43,6 +44,9 @@ Un equipo de agentes (consultor, arquitecto, desarrollador, tester…) trabajand
 
 #### 📝 Aprendido hoy ([todo](https://github.com/AlbaAsca/til))
 <!-- til starts -->
+- [Un holdout local es una alarma, no un veredicto](https://github.com/AlbaAsca/til/blob/main/ml/holdout-local-no-es-veredicto.md) · 2026-11-01
+- [`linear_tree` en LightGBM extrapola… también lo que no debe](https://github.com/AlbaAsca/til/blob/main/ml/linear-tree-extrapola-temporadas.md) · 2026-11-01
+- [Usar mplcyberpunk con matplotlib ≥ 3.11](https://github.com/AlbaAsca/til/blob/main/python/mplcyberpunk-con-matplotlib-311.md) · 2026-11-01
 - [Borrar datos privados de todo el historial de git](https://github.com/AlbaAsca/til/blob/main/git/borrar-datos-privados-del-historial.md) · 2026-10-14
 <!-- til ends -->
 
