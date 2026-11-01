@@ -22,6 +22,13 @@ Construyo pipelines de datos, servicios Spring Boot y equipos de **agentes de IA
 
 <a href="https://github.com/AlbaAsca/aws-data-pipeline"><img src="https://github.com/AlbaAsca/aws-data-pipeline/raw/main/docs/img/temperature.gif?v=2" alt="60 días de temperatura de seis ciudades, dibujándose" width="100%"></a>
 
+### ☕ [WebFluxTaskManager](https://github.com/AlbaAsca/WebFluxTaskManager) · backend Java reactivo
+API REST de tareas con **Java 21, Spring Boot 4 y WebFlux** sobre MongoDB reactivo: HATEOAS, errores RFC 9457,
+seguridad por roles y **cambios en tiempo real por Server-Sent Events**. Tests con `@WebFluxTest`, `StepVerifier`
+y **Testcontainers** contra un MongoDB real en el CI.
+
+<a href="https://github.com/AlbaAsca/WebFluxTaskManager"><img src="https://github.com/AlbaAsca/WebFluxTaskManager/raw/main/docs/img/hero.svg" alt="WebFlux Task Manager: lo que cambia un usuario lo ven todos al instante" width="100%"></a>
+
 ### 📈 [store-sales-forecasting](https://github.com/AlbaAsca/store-sales-forecasting) · series temporales en Kaggle
 Previsión de 1.782 series con validación temporal honesta: **0,45751 → 0,38839 RMSLE (−15 %)** en 10 versiones.
 45 ideas probadas como experimentos con el criterio fijado antes de medir, también las 30 que no entraron.
@@ -68,4 +75,4 @@ las estimaciones.
   <a href="mailto:albaasca@gmail.com"><img src="https://img.shields.io/badge/Email-albaasca%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
-<sub>🇬🇧 Data Engineer & Java backend developer (5+ yrs), Spain, remote. AWS Certified AI Practitioner. Data pipelines, Spring Boot services and AI agent teams that ship with TDD and CI. Featured: an end-to-end AWS data pipeline (Lambda, S3, dbt + DuckDB, Terraform, GitHub OIDC; built on LocalStack, < $0.01 on real AWS) and time-series forecasting on Kaggle Store Sales (RMSLE 0.457 → 0.388) with honest backtesting.</sub>
+<sub>🇬🇧 Data Engineer & Java backend developer (5+ yrs), Spain, remote. AWS Certified AI Practitioner. Data pipelines, Spring Boot services and AI agent teams that ship with TDD and CI. Featured: a reactive Java 21 / Spring Boot 4 WebFlux API with real-time SSE, an end-to-end AWS data pipeline (Lambda, S3, dbt + DuckDB, Terraform, GitHub OIDC; built on LocalStack, < $0.01 on real AWS) and time-series forecasting on Kaggle Store Sales (RMSLE 0.457 → 0.388) with honest backtesting.</sub>

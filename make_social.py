@@ -33,6 +33,12 @@ CARDS = [
         "Consultor · arquitecto\nDesarrollador · tester\nTiempo estimado frente a real",
         "#F5D300",
     ),
+    (
+        "WebFluxTaskManager",
+        "API reactiva en tiempo real",
+        "Java 21 · Spring Boot 4 · WebFlux\nMongoDB reactivo · HATEOAS\nSSE · Testcontainers",
+        "#6DB33F",
+    ),
 ]
 
 
@@ -44,7 +50,7 @@ def card(name: str, title: str, sub: str, accent: str, image: str) -> None:
         fig.add_artist(plt.Line2D([0, 1], [y / 640] * 2, color="#1A2244", lw=0.6))
     fig.add_artist(plt.Rectangle((0, 0), 0.012, 1, color=accent, transform=fig.transFigure))
     fig.text(0.05, 0.86, "AlbaAsca /", color=MUTED, fontsize=22)
-    fig.text(0.05, 0.74, name, color=accent, fontsize=46, fontweight="bold")
+    fig.text(0.05, 0.74, name, color=accent, fontsize=46 if len(name) < 20 else 40, fontweight="bold")
     fig.text(0.05, 0.63, title, color=FG, fontsize=26)
     fig.text(0.05, 0.5, sub, color=MUTED, fontsize=18, linespacing=1.7, va="top")
     ax = fig.add_axes([0.46, 0.05, 0.51, 0.52])
