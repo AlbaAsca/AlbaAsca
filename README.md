@@ -1,35 +1,66 @@
-### Hola, soy Alba 👋
+<p align="center">
+  <img src="assets/hero.svg" alt="Hola, soy Alba: Data Engineer, backend Java y equipos de agentes de IA" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS"> <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"> <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" alt="dbt"> <img src="https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black" alt="DuckDB"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
+</p>
 
 **Data Engineer y desarrolladora backend Java** · +5 años · España (remoto).
 Construyo pipelines de datos, servicios Spring Boot y equipos de **agentes de IA** que programan con TDD, CI y revisión, y miden su precisión estimando.
 
-- 🛠️ **Stack:** Java · Spring Boot · Python · SQL · FastAPI · PostgreSQL · Docker · GitHub Actions · AWS
-- 📈 **Datos y ML:** pandas · LightGBM · series temporales (validación temporal, backtesting) · matplotlib
+- 📈 **Datos y ML:** pipelines en AWS · dbt + DuckDB · pandas · LightGBM · series temporales con validación honesta
 - 🤖 **IA:** RAG local, visión por computador (OpenCV), Stable Diffusion + ControlNet, Claude Code con subagentes
-- 🎓 **Certificación:** AWS Certified AI Practitioner
-- 📚 **Aprendiendo ahora:** AWS Cloud Practitioner (examen en nov 2026) · RAG local sobre código · inglés técnico
+- 🎓 **Certificación:** AWS Certified AI Practitioner · 📚 **Ahora:** AWS Cloud Practitioner (nov 2026)
 - 💬 **Pregúntame por:** pipelines de datos, Spring/WebFlux, trabajar con equipos de agentes
 
-#### 📈 Proyecto de datos: [store-sales-forecasting](https://github.com/AlbaAsca/store-sales-forecasting)
+## ✨ Proyectos destacados
 
-Previsión de ventas de 1.782 series (Kaggle Store Sales) con validación temporal honesta: **0.45751 → 0.38839 RMSLE (−15 %)**
-en 10 versiones. Probé 45 ideas como experimentos, cada una con su criterio fijado antes de medir, y las documenté todas,
-también las 30 que no entraron. Lo hizo un equipo de agentes coordinado desde agent-board.
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ☁️ [aws-data-pipeline](https://github.com/AlbaAsca/aws-data-pipeline)
+Pipeline de datos de punta a punta en AWS: **Lambda → S3 (Parquet) → dbt + DuckDB → panel**, con Terraform,
+alarmas, DLQ y despliegue desde GitHub por **OIDC sin claves**. Construido en LocalStack a coste 0 y probado en AWS real
+por **< 0,01 $**.
+
+<a href="https://github.com/AlbaAsca/aws-data-pipeline"><img src="https://github.com/AlbaAsca/aws-data-pipeline/raw/main/docs/img/temperature.gif" alt="60 días de temperatura de seis ciudades, dibujándose" width="100%"></a>
+
+</td>
+<td width="50%" valign="top">
+
+### 📈 [store-sales-forecasting](https://github.com/AlbaAsca/store-sales-forecasting)
+Previsión de 1.782 series (Kaggle Store Sales) con validación temporal honesta:
+**0,45751 → 0,38839 RMSLE (−15 %)** en 10 versiones. 45 ideas probadas como experimentos con el criterio fijado
+antes de medir, también las 30 que no entraron.
 
 <a href="https://github.com/AlbaAsca/store-sales-forecasting"><img src="https://github.com/AlbaAsca/store-sales-forecasting/raw/main/docs/img/progreso.png" alt="Evolución de la nota en Kaggle, el backtest y el holdout en cada versión" width="100%"></a>
 
-#### ⭐ Proyecto destacado: [agent-board](https://github.com/AlbaAsca/agent-board)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-Un equipo de agentes (consultor, arquitecto, desarrollador, tester…) trabajando sobre un kanban: cada tarea guarda el tiempo estimado frente al real, y el panel calibra las estimaciones.
+### 🤖 [agent-board](https://github.com/AlbaAsca/agent-board)
+Un equipo de agentes (consultor, arquitecto, desarrollador, tester…) sobre un kanban: cada tarea guarda el tiempo
+estimado frente al real y el panel calibra las estimaciones.
 
 <a href="https://github.com/AlbaAsca/agent-board"><img src="https://github.com/AlbaAsca/agent-board/raw/main/docs/panel.png" alt="Panel de agent-board: agentes, cola de tareas y kanban con tiempo estimado frente a real" width="100%"></a>
 
-#### Más proyectos
+</td>
+<td width="50%" valign="top">
 
+### 🧰 Más
 | Proyecto | Qué hace |
 |---|---|
-| [agent-project-template](https://github.com/AlbaAsca/agent-project-template) | Plantilla para desarrollo autónomo con agentes: orquestador → implementer → reviewer, TDD estricto y CI verify/e2e/deploy |
-| floorplan-studio *(privado, demo pronto)* | Del plano (PDF, escaneo o foto) a la estancia amueblada: detecta paredes, obtiene la escala por OCR y genera la imagen con IA local |
+| [agent-project-template](https://github.com/AlbaAsca/agent-project-template) | Desarrollo autónomo con agentes: orquestador → implementer → reviewer, TDD estricto y CI |
+| [til](https://github.com/AlbaAsca/til) | Notas cortas de lo que aprendo cada día |
+| floorplan-studio *(privado, demo pronto)* | Del plano a la estancia amueblada: paredes, escala por OCR e imagen con IA local |
+
+</td>
+</tr>
+</table>
 
 <table><tr><td valign="top" width="50%">
 
