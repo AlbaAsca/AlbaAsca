@@ -25,7 +25,7 @@ Pipeline de datos de punta a punta en AWS: **Lambda → S3 (Parquet) → dbt + D
 alarmas, DLQ y despliegue desde GitHub por **OIDC sin claves**. Construido en LocalStack a coste 0 y probado en AWS real
 por **< 0,01 $**.
 
-<a href="https://github.com/AlbaAsca/aws-data-pipeline"><img src="https://github.com/AlbaAsca/aws-data-pipeline/raw/main/docs/img/temperature.gif" alt="60 días de temperatura de seis ciudades, dibujándose" width="100%"></a>
+<a href="https://github.com/AlbaAsca/aws-data-pipeline"><img src="https://github.com/AlbaAsca/aws-data-pipeline/raw/main/docs/img/temperature.gif" alt="60 días de temperatura de seis ciudades, dibujándose" width="420"></a>
 
 </td>
 <td width="50%" valign="top">
@@ -35,7 +35,7 @@ Previsión de 1.782 series (Kaggle Store Sales) con validación temporal honesta
 **0,45751 → 0,38839 RMSLE (−15 %)** en 10 versiones. 45 ideas probadas como experimentos con el criterio fijado
 antes de medir, también las 30 que no entraron.
 
-<a href="https://github.com/AlbaAsca/store-sales-forecasting"><img src="https://github.com/AlbaAsca/store-sales-forecasting/raw/main/docs/img/progreso.png" alt="Evolución de la nota en Kaggle, el backtest y el holdout en cada versión" width="100%"></a>
+<a href="https://github.com/AlbaAsca/store-sales-forecasting"><img src="https://github.com/AlbaAsca/store-sales-forecasting/raw/main/docs/img/progreso.png" alt="Evolución de la nota en Kaggle, el backtest y el holdout en cada versión" width="420"></a>
 
 </td>
 </tr>
@@ -46,7 +46,7 @@ antes de medir, también las 30 que no entraron.
 Un equipo de agentes (consultor, arquitecto, desarrollador, tester…) sobre un kanban: cada tarea guarda el tiempo
 estimado frente al real y el panel calibra las estimaciones.
 
-<a href="https://github.com/AlbaAsca/agent-board"><img src="https://github.com/AlbaAsca/agent-board/raw/main/docs/panel.png" alt="Panel de agent-board: agentes, cola de tareas y kanban con tiempo estimado frente a real" width="100%"></a>
+<a href="https://github.com/AlbaAsca/agent-board"><img src="https://github.com/AlbaAsca/agent-board/raw/main/docs/panel.png" alt="Panel de agent-board: agentes, cola de tareas y kanban con tiempo estimado frente a real" width="420"></a>
 
 </td>
 <td width="50%" valign="top">
