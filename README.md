@@ -65,4 +65,4 @@ las estimaciones.
 
 📫 [albaasca@gmail.com](mailto:albaasca@gmail.com)
 
-<sub>🇬🇧 Data Engineer & Java backend developer (5+ yrs), Spain, remote. AWS Certified AI Practitioner. Data pipelines, Spring Boot services and AI agent teams that ship with TDD and CI. Featured: time-series forecasting on Kaggle Store Sales (RMSLE 0.457 → 0.388) with honest backtesting.</sub>
+<sub>🇬🇧 Data Engineer & Java backend developer (5+ yrs), Spain, remote. AWS Certified AI Practitioner. Data pipelines, Spring Boot services and AI agent teams that ship with TDD and CI. Featured: an end-to-end AWS data pipeline (Lambda, S3, dbt + DuckDB, Terraform, GitHub OIDC; built on LocalStack, < $0.01 on real AWS) and time-series forecasting on Kaggle Store Sales (RMSLE 0.457 → 0.388) with honest backtesting.</sub>
