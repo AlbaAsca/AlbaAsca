@@ -4,10 +4,19 @@
 Construyo pipelines de datos, servicios Spring Boot y equipos de **agentes de IA** que programan con TDD, CI y revisión, y miden su precisión estimando.
 
 - 🛠️ **Stack:** Java · Spring Boot · Python · SQL · FastAPI · PostgreSQL · Docker · GitHub Actions · AWS
+- 📈 **Datos y ML:** pandas · LightGBM · series temporales (validación temporal, backtesting) · matplotlib
 - 🤖 **IA:** RAG local, visión por computador (OpenCV), Stable Diffusion + ControlNet, Claude Code con subagentes
 - 🎓 **Certificación:** AWS Certified AI Practitioner
 - 📚 **Aprendiendo ahora:** AWS Cloud Practitioner (examen en nov 2026) · RAG local sobre código · inglés técnico
 - 💬 **Pregúntame por:** pipelines de datos, Spring/WebFlux, trabajar con equipos de agentes
+
+#### 📈 Proyecto de datos: [store-sales-forecasting](https://github.com/AlbaAsca/store-sales-forecasting)
+
+Previsión de ventas de 1.782 series (Kaggle Store Sales) con validación temporal honesta: **0.45751 → 0.38839 RMSLE (−15 %)**
+en 10 versiones. Probé 45 ideas como experimentos, cada una con su criterio fijado antes de medir, y las documenté todas,
+también las 30 que no entraron. Lo hizo un equipo de agentes coordinado desde agent-board.
+
+<a href="https://github.com/AlbaAsca/store-sales-forecasting"><img src="https://github.com/AlbaAsca/store-sales-forecasting/raw/main/docs/img/progreso.png" alt="Evolución de la nota en Kaggle, el backtest y el holdout en cada versión" width="100%"></a>
 
 #### ⭐ Proyecto destacado: [agent-board](https://github.com/AlbaAsca/agent-board)
 
@@ -41,4 +50,4 @@ Un equipo de agentes (consultor, arquitecto, desarrollador, tester…) trabajand
 
 📫 [albaasca@gmail.com](mailto:albaasca@gmail.com)
 
-<sub>🇬🇧 Data Engineer & Java backend developer (5+ yrs), Spain, remote. AWS Certified AI Practitioner. Data pipelines, Spring Boot services and AI agent teams that ship with TDD and CI.</sub>
+<sub>🇬🇧 Data Engineer & Java backend developer (5+ yrs), Spain, remote. AWS Certified AI Practitioner. Data pipelines, Spring Boot services and AI agent teams that ship with TDD and CI. Featured: time-series forecasting on Kaggle Store Sales (RMSLE 0.457 → 0.388) with honest backtesting.</sub>
