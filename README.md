@@ -20,7 +20,7 @@ Construyo pipelines de datos, servicios Spring Boot y equipos de **agentes de IA
 **Lambda → S3 (Parquet) → dbt + DuckDB → panel**, con Terraform, alarmas, DLQ y despliegue desde GitHub por
 **OIDC sin claves**. Construido en LocalStack a coste 0 y probado en una cuenta real de AWS por **< 0,01 $**.
 
-<a href="https://github.com/AlbaAsca/aws-data-pipeline"><img src="https://github.com/AlbaAsca/aws-data-pipeline/raw/main/docs/img/temperature.gif" alt="60 días de temperatura de seis ciudades, dibujándose" width="100%"></a>
+<a href="https://github.com/AlbaAsca/aws-data-pipeline"><img src="https://github.com/AlbaAsca/aws-data-pipeline/raw/main/docs/img/temperature.gif?v=2" alt="60 días de temperatura de seis ciudades, dibujándose" width="100%"></a>
 
 ### 📈 [store-sales-forecasting](https://github.com/AlbaAsca/store-sales-forecasting) · series temporales en Kaggle
 Previsión de 1.782 series con validación temporal honesta: **0,45751 → 0,38839 RMSLE (−15 %)** en 10 versiones.
