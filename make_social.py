@@ -1,6 +1,6 @@
 """Imágenes de vista previa (1280x640) para compartir los repos destacados.
 
-    python make_social.py <imagen aws> <imagen store-sales> <imagen agent-board>
+    python make_social.py <imagen de cada repo, en el orden de CARDS>
 """
 
 import sys
@@ -38,6 +38,12 @@ CARDS = [
         "API reactiva en tiempo real",
         "Java 21 · Spring Boot 4 · WebFlux\nMongoDB reactivo · HATEOAS\nSSE · Testcontainers",
         "#9ECE6A",
+    ),
+    (
+        "realtime-fraud-pipeline",
+        "Fraude detectado en tiempo real",
+        "Kafka (KRaft) · Kafka Streams\nVentanas · exactly-once · DLQ\nJava 21 · Spring Boot 4 · SSE",
+        "#F7768E",
     ),
 ]
 
