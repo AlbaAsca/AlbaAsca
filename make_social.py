@@ -12,32 +12,32 @@ import matplotlib.pyplot as plt
 plt.rcParams["text.parse_math"] = False  # que «$» se pinte tal cual
 
 OUT = Path(__file__).parent / "assets" / "social"
-BG, FG, MUTED = "#0B1026", "#E0E6F0", "#8C9BB5"
+BG, FG, MUTED = "#1A1B26", "#C0CAF5", "#9AA5CE"
 
 CARDS = [
     (
         "aws-data-pipeline",
         "Datos de punta a punta en AWS",
         "Lambda · S3 · dbt + DuckDB\nTerraform · GitHub OIDC\nLocalStack a 0 $ · AWS real < 0,01 $",
-        "#08F7FE",
+        "#7DCFFF",
     ),
     (
         "store-sales-forecasting",
         "Previsión de ventas en Kaggle",
         "1.782 series temporales\nValidación temporal honesta\nRMSLE 0,458 → 0,388 (−15 %)",
-        "#FE53BB",
+        "#BB9AF7",
     ),
     (
         "agent-board",
         "Agentes de IA en un kanban",
         "Consultor · arquitecto\nDesarrollador · tester\nTiempo estimado frente a real",
-        "#F5D300",
+        "#E0AF68",
     ),
     (
         "WebFluxTaskManager",
         "API reactiva en tiempo real",
         "Java 21 · Spring Boot 4 · WebFlux\nMongoDB reactivo · HATEOAS\nSSE · Testcontainers",
-        "#6DB33F",
+        "#9ECE6A",
     ),
 ]
 
@@ -45,9 +45,9 @@ CARDS = [
 def card(name: str, title: str, sub: str, accent: str, image: str) -> None:
     fig = plt.figure(figsize=(12.8, 6.4), dpi=100, facecolor=BG)
     for x in range(0, 1281, 40):
-        fig.add_artist(plt.Line2D([x / 1280] * 2, [0, 1], color="#1A2244", lw=0.6))
+        fig.add_artist(plt.Line2D([x / 1280] * 2, [0, 1], color="#1F2335", lw=0.6))
     for y in range(0, 641, 40):
-        fig.add_artist(plt.Line2D([0, 1], [y / 640] * 2, color="#1A2244", lw=0.6))
+        fig.add_artist(plt.Line2D([0, 1], [y / 640] * 2, color="#1F2335", lw=0.6))
     fig.add_artist(plt.Rectangle((0, 0), 0.012, 1, color=accent, transform=fig.transFigure))
     fig.text(0.05, 0.86, "AlbaAsca /", color=MUTED, fontsize=22)
     fig.text(0.05, 0.74, name, color=accent, fontsize=46 if len(name) < 20 else 40, fontweight="bold")

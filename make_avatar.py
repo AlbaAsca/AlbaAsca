@@ -12,8 +12,8 @@ import numpy as np
 from matplotlib.colors import LinearSegmentedColormap
 
 OUT = Path(__file__).parent / "assets"
-BG = "#0B1026"
-CMAP = LinearSegmentedColormap.from_list("neon", ["#08F7FE", "#9467FD", "#FE53BB", "#F5D300"])
+BG = "#16161E"
+CMAP = LinearSegmentedColormap.from_list("neon", ["#7DCFFF", "#7AA2F7", "#BB9AF7", "#F7768E", "#E0AF68"])
 
 
 def series(raw_glob: str) -> list[np.ndarray]:
@@ -47,18 +47,18 @@ def draw(curves: list[np.ndarray], path: Path, initials: bool) -> None:
         y = base + (c - c.min()) / (np.ptp(c) + 1e-9) * 0.15 * window
         color = CMAP(i / (n - 1))
         ax.fill_between(x, base - 0.01, y, color=BG, zorder=2 * (n - i))
-        for lw, alpha in ((10, 0.05), (6, 0.1), (3, 0.25)):
+        for lw, alpha in ((5, 0.08),):
             ax.plot(x, y, color=color, linewidth=lw, alpha=alpha, zorder=2 * (n - i) + 1, solid_capstyle="round")
         ax.plot(x, y, color=color, linewidth=1.8, zorder=2 * (n - i) + 1, solid_capstyle="round")
 
     # anillo neón que encaja con el recorte circular de GitHub
     t = np.linspace(0, 2 * np.pi, 400)
-    for lw, alpha in ((14, 0.06), (8, 0.12), (3, 0.9)):
-        ax.plot(0.5 + 0.465 * np.cos(t), 0.5 + 0.465 * np.sin(t), color="#08F7FE", lw=lw, alpha=alpha, zorder=200)
+    for lw, alpha in ((10, 0.05), (3, 0.9)):
+        ax.plot(0.5 + 0.465 * np.cos(t), 0.5 + 0.465 * np.sin(t), color="#7AA2F7", lw=lw, alpha=alpha, zorder=200)
     if initials:
         for size, alpha in ((92, 0.2), (80, 1)):
             ax.text(0.5, 0.17, "AA", ha="center", va="center", fontsize=size * 0.6, fontweight="bold",
-                    color="#E0E6F0", alpha=alpha, zorder=100)
+                    color="#C0CAF5", alpha=alpha, zorder=100)
     fig.savefig(path, facecolor=BG)
     plt.close(fig)
 

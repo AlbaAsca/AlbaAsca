@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS"> <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"> <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" alt="dbt"> <img src="https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black" alt="DuckDB"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/Java-24283B?style=for-the-badge&logo=openjdk&logoColor=FF9E64" alt="Java"> <img src="https://img.shields.io/badge/Spring%20Boot-24283B?style=for-the-badge&logo=springboot&logoColor=9ECE6A" alt="Spring Boot"> <img src="https://img.shields.io/badge/Python-24283B?style=for-the-badge&logo=python&logoColor=7AA2F7" alt="Python"> <img src="https://img.shields.io/badge/SQL-24283B?style=for-the-badge&logo=postgresql&logoColor=7DCFFF" alt="SQL"> <img src="https://img.shields.io/badge/AWS-24283B?style=for-the-badge&logo=amazonwebservices&logoColor=FF9E64" alt="AWS"> <img src="https://img.shields.io/badge/Terraform-24283B?style=for-the-badge&logo=terraform&logoColor=BB9AF7" alt="Terraform"> <img src="https://img.shields.io/badge/dbt-24283B?style=for-the-badge&logo=dbt&logoColor=F7768E" alt="dbt"> <img src="https://img.shields.io/badge/DuckDB-24283B?style=for-the-badge&logo=duckdb&logoColor=E0AF68" alt="DuckDB"> <img src="https://img.shields.io/badge/Docker-24283B?style=for-the-badge&logo=docker&logoColor=7DCFFF" alt="Docker"> <img src="https://img.shields.io/badge/GitHub%20Actions-24283B?style=for-the-badge&logo=githubactions&logoColor=7AA2F7" alt="GitHub Actions">
 </p>
 
 **Data Engineer y desarrolladora backend Java** · +5 años · España (remoto).
@@ -72,8 +72,8 @@ las estimaciones.
 </td></tr></table>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/alba-ascaso-laguna-936949193/"><img src="https://img.shields.io/badge/LinkedIn-Alba%20Ascaso-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:albaasca@gmail.com"><img src="https://img.shields.io/badge/Email-albaasca%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/alba-ascaso-laguna-936949193/"><img src="https://img.shields.io/badge/LinkedIn-Alba%20Ascaso-24283B?style=for-the-badge&logo=linkedin&logoColor=7AA2F7" alt="LinkedIn"></a>
+  <a href="mailto:albaasca@gmail.com"><img src="https://img.shields.io/badge/Email-albaasca%40gmail.com-24283B?style=for-the-badge&logo=gmail&logoColor=BB9AF7" alt="Email"></a>
 </p>
 
 <sub>🇬🇧 Data Engineer & Java backend developer (5+ yrs), Spain, remote. AWS Certified AI Practitioner. Data pipelines, Spring Boot services and AI agent teams that ship with TDD and CI. Featured: a reactive Java 21 / Spring Boot 4 WebFlux API with real-time SSE, an end-to-end AWS data pipeline (Lambda, S3, dbt + DuckDB, Terraform, GitHub OIDC; built on LocalStack, < $0.01 on real AWS) and time-series forecasting on Kaggle Store Sales (RMSLE 0.457 → 0.388) with honest backtesting.</sub>
