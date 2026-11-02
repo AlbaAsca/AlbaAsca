@@ -28,6 +28,12 @@ ventanas por *event time*, reglas con estado, exactly-once y DLQ. Se levanta con
 
 <a href="https://github.com/AlbaAsca/realtime-fraud-pipeline"><img src="https://github.com/AlbaAsca/realtime-fraud-pipeline/raw/main/docs/img/hero.svg" alt="Realtime Fraud Pipeline: del pago a la alerta en tiempo real con Kafka Streams" width="100%"></a>
 
+### 🧊 [lakehouse-mcp](https://github.com/AlbaAsca/lakehouse-mcp) · lakehouse con un agente de IA (en construcción)
+Un lakehouse local que un agente consultará, vigilará y reparará vía **MCP**: **Kafka → Iceberg (Polaris) → DuckDB 2.0**, con
+**Java 25 y Spring AI 2**. La infraestructura ya funciona; el agente y las evals con verdad de referencia están en marcha.
+
+<a href="https://github.com/AlbaAsca/lakehouse-mcp"><img src="https://github.com/AlbaAsca/lakehouse-mcp/raw/main/docs/img/architecture.svg" alt="Arquitectura de lakehouse-mcp: eventos en Kafka, tablas Iceberg con Polaris y SeaweedFS, DuckDB, servidor MCP y agente con aprobación humana" width="100%"></a>
+
 ### ☕ [WebFluxTaskManager](https://github.com/AlbaAsca/WebFluxTaskManager) · backend Java reactivo
 API REST de tareas con **Java 21, Spring Boot 4 y WebFlux** sobre MongoDB reactivo: HATEOAS, errores RFC 9457,
 seguridad por roles y **cambios en tiempo real por Server-Sent Events**. Tests con `@WebFluxTest`, `StepVerifier`
