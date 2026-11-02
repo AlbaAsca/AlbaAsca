@@ -52,8 +52,8 @@ las estimaciones.
 
 #### 🔨 Trabajo reciente
 <!-- recent_work starts -->
-- **[WebFluxTaskManager](https://github.com/AlbaAsca/WebFluxTaskManager)** — [Merge branch 'feature/modernize'](https://github.com/AlbaAsca/WebFluxTaskManager/commit/853c69d0bfd0215270611807d34a89dd2dd96efa) · 2026-11-01
-- **[aws-data-pipeline](https://github.com/AlbaAsca/aws-data-pipeline)** — [docs: add English summary to README](https://github.com/AlbaAsca/aws-data-pipeline/commit/e266ee60d2d0657f56bdccb71b22218057c01be0) · 2026-11-01
+- **[aws-data-pipeline](https://github.com/AlbaAsca/aws-data-pipeline)** — [style: switch charts, dashboard and diagrams to the Tokyo…](https://github.com/AlbaAsca/aws-data-pipeline/commit/b23d5c5b5fd1b611e40f4caa72e25cc90e93b3d6) · 2026-11-02
+- **[WebFluxTaskManager](https://github.com/AlbaAsca/WebFluxTaskManager)** — [docs: add real-time demo GIF to README](https://github.com/AlbaAsca/WebFluxTaskManager/commit/72749b69071995d842de41165c158170b018fa41) · 2026-11-02
 - **[store-sales-forecasting](https://github.com/AlbaAsca/store-sales-forecasting)** — [docs(learnings): record Kaggle outcomes of V-037, V-038, …](https://github.com/AlbaAsca/store-sales-forecasting/commit/d99a9a0f657f3f77664c347ecb940b68902f03e3) · 2026-11-01
 - **[agent-board](https://github.com/AlbaAsca/agent-board)** — [perf: per-role turn caps for autonomous agents](https://github.com/AlbaAsca/agent-board/commit/8163dcca785f5a60ec8f0eeb0ecf520fe260e66a) · 2026-10-18
 - **[agent-project-template](https://github.com/AlbaAsca/agent-project-template)** — [docs: add English summary to README](https://github.com/AlbaAsca/agent-project-template/commit/6aa61f2fe0c06a4f30ff2fbfb05538a3f6720c84) · 2026-10-14
