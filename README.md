@@ -64,9 +64,9 @@ las estimaciones.
 
 #### 🔨 Trabajo reciente
 <!-- recent_work starts -->
+- **[lakehouse-mcp](https://github.com/AlbaAsca/lakehouse-mcp)** — [ci(wiki): publish docs/wiki to the GitHub wiki on push (T…](https://github.com/AlbaAsca/lakehouse-mcp/commit/369c7377116e08c778ffba7ee331bb47703ae99e) · 2026-11-02
 - **[store-sales-forecasting](https://github.com/AlbaAsca/store-sales-forecasting)** — [fix: restore moving packets in hero banner](https://github.com/AlbaAsca/store-sales-forecasting/commit/06bb0a60ae074f09ea85e2edf924b656e7a0f8d2) · 2026-11-02
 - **[flowbanner](https://github.com/AlbaAsca/flowbanner)** — [fix: always show moving packets in banners](https://github.com/AlbaAsca/flowbanner/commit/6ff38125baece2a030e07d08be329ef8b0c2aaa8) · 2026-11-02
-- **[lakehouse-mcp](https://github.com/AlbaAsca/lakehouse-mcp)** — [docs: replace mermaid diagram with animated architecture …](https://github.com/AlbaAsca/lakehouse-mcp/commit/f303995a0e9288e39977a4da72f83def334f484e) · 2026-11-02
 - **[realtime-fraud-pipeline](https://github.com/AlbaAsca/realtime-fraud-pipeline)** — [docs: add README, diagrams and demo GIF](https://github.com/AlbaAsca/realtime-fraud-pipeline/commit/bf61bdba20d12fd6e5739d623cc48403ddf0a979) · 2026-11-02
 - **[agent-board](https://github.com/AlbaAsca/agent-board)** — [style: switch panel and agent colors to the Tokyo Night p…](https://github.com/AlbaAsca/agent-board/commit/14601f81c5304128d51ddfc5c005d1bb26d60ff6) · 2026-11-02
 <!-- recent_work ends -->
