@@ -20,13 +20,13 @@ Construyo pipelines de datos, servicios Spring Boot y equipos de **agentes de IA
 **Lambda → S3 (Parquet) → dbt + DuckDB → panel**, con Terraform, alarmas, DLQ y despliegue desde GitHub por
 **OIDC sin claves**. Construido en LocalStack a coste 0 y probado en una cuenta real de AWS por **< 0,01 $**.
 
-<a href="https://github.com/AlbaAsca/aws-data-pipeline"><img src="https://github.com/AlbaAsca/aws-data-pipeline/raw/main/docs/img/temperature.gif?v=3" alt="60 días de temperatura de seis ciudades, dibujándose" width="100%"></a>
+<a href="https://github.com/AlbaAsca/aws-data-pipeline"><img src="https://github.com/AlbaAsca/aws-data-pipeline/raw/main/docs/img/hero.svg" alt="aws-data-pipeline: Open-Meteo → Lambda → S3 → dbt + DuckDB → panel" width="100%"></a>
 
 ### ⚡ [realtime-fraud-pipeline](https://github.com/AlbaAsca/realtime-fraud-pipeline) · streaming en tiempo real
 Fraude con tarjetas detectado mientras ocurre: **Kafka (KRaft) → Kafka Streams → alertas y panel en vivo por SSE**, con
 ventanas por *event time*, reglas con estado, exactly-once y DLQ. Se levanta con `docker compose up`; **Testcontainers** contra un Kafka real en el CI.
 
-<a href="https://github.com/AlbaAsca/realtime-fraud-pipeline"><img src="https://github.com/AlbaAsca/realtime-fraud-pipeline/raw/main/docs/img/demo.gif" alt="Panel en vivo: llegan alertas de fraude por SSE y al pulsar una se consulta el estado de la tarjeta" width="100%"></a>
+<a href="https://github.com/AlbaAsca/realtime-fraud-pipeline"><img src="https://github.com/AlbaAsca/realtime-fraud-pipeline/raw/main/docs/img/hero.svg" alt="Realtime Fraud Pipeline: del pago a la alerta en tiempo real con Kafka Streams" width="100%"></a>
 
 ### ☕ [WebFluxTaskManager](https://github.com/AlbaAsca/WebFluxTaskManager) · backend Java reactivo
 API REST de tareas con **Java 21, Spring Boot 4 y WebFlux** sobre MongoDB reactivo: HATEOAS, errores RFC 9457,
@@ -39,7 +39,7 @@ y **Testcontainers** contra un MongoDB real en el CI.
 Previsión de 1.782 series con validación temporal honesta: **0,45751 → 0,38839 RMSLE (−15 %)** en 10 versiones.
 45 ideas probadas como experimentos con el criterio fijado antes de medir, también las 30 que no entraron.
 
-<a href="https://github.com/AlbaAsca/store-sales-forecasting"><img src="https://github.com/AlbaAsca/store-sales-forecasting/raw/main/docs/img/progreso.png?v=2" alt="Evolución de la nota en Kaggle, el backtest y el holdout en cada versión" width="100%"></a>
+<a href="https://github.com/AlbaAsca/store-sales-forecasting"><img src="https://github.com/AlbaAsca/store-sales-forecasting/raw/main/docs/img/hero.svg" alt="store-sales-forecasting: de la idea al backtest, el holdout y Kaggle, de 0,45751 a 0,38839 RMSLE" width="100%"></a>
 
 ### 🤖 [agent-board](https://github.com/AlbaAsca/agent-board) · un equipo de agentes de IA sobre un kanban
 Consultor, arquitecto, desarrollador, tester…: cada tarea guarda el tiempo estimado frente al real y el panel calibra
