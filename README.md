@@ -45,7 +45,7 @@ y **Testcontainers** contra un MongoDB real en el CI.
 Previsión de 1.782 series con validación temporal honesta: **0,45751 → 0,38839 RMSLE (−15 %)** en 10 versiones.
 45 ideas probadas como experimentos con el criterio fijado antes de medir, también las 30 que no entraron.
 
-<a href="https://github.com/AlbaAsca/store-sales-forecasting"><img src="https://github.com/AlbaAsca/store-sales-forecasting/raw/main/docs/img/hero.svg" alt="store-sales-forecasting: de la idea al backtest, el holdout y Kaggle, de 0,45751 a 0,38839 RMSLE" width="100%"></a>
+<a href="https://github.com/AlbaAsca/store-sales-forecasting"><img src="https://github.com/AlbaAsca/store-sales-forecasting/raw/main/docs/img/hero.svg?v=2" alt="store-sales-forecasting: de la idea al backtest, el holdout y Kaggle, de 0,45751 a 0,38839 RMSLE" width="100%"></a>
 
 ### 🤖 [agent-board](https://github.com/AlbaAsca/agent-board) · un equipo de agentes de IA sobre un kanban
 Consultor, arquitecto, desarrollador, tester…: cada tarea guarda el tiempo estimado frente al real y el panel calibra
