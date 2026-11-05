@@ -64,7 +64,7 @@ las estimaciones.
 
 #### 🔨 Trabajo reciente
 <!-- recent_work starts -->
-- **[lakehouse-mcp](https://github.com/AlbaAsca/lakehouse-mcp)** — [ci(wiki): publish docs/wiki to the GitHub wiki on push (T…](https://github.com/AlbaAsca/lakehouse-mcp/commit/369c7377116e08c778ffba7ee331bb47703ae99e) · 2026-11-02
+- **[lakehouse-mcp](https://github.com/AlbaAsca/lakehouse-mcp)** — [chore(runner): T-084 limit by tester](https://github.com/AlbaAsca/lakehouse-mcp/commit/53b8d403a8ef2d4365f4304713842e0809766135) · 2026-11-03
 - **[agent-board](https://github.com/AlbaAsca/agent-board)** — [docs: add working method lessons from lakehouse-mcp](https://github.com/AlbaAsca/agent-board/commit/47d167df273696d497da159f169a914a6f1a8f7d) · 2026-11-02
 - **[store-sales-forecasting](https://github.com/AlbaAsca/store-sales-forecasting)** — [fix: restore moving packets in hero banner](https://github.com/AlbaAsca/store-sales-forecasting/commit/06bb0a60ae074f09ea85e2edf924b656e7a0f8d2) · 2026-11-02
 - **[flowbanner](https://github.com/AlbaAsca/flowbanner)** — [fix: always show moving packets in banners](https://github.com/AlbaAsca/flowbanner/commit/6ff38125baece2a030e07d08be329ef8b0c2aaa8) · 2026-11-02
