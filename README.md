@@ -64,7 +64,7 @@ las estimaciones.
 
 #### 🔨 Trabajo reciente
 <!-- recent_work starts -->
-- **[geonavidad](https://github.com/AlbaAsca/geonavidad)** — [Envio automatico al colocar el regalo](https://github.com/AlbaAsca/geonavidad/commit/4ed5dac634c08d63895a8083dabfdf2ea1f643e0) · 2026-11-10
+- **[geonavidad](https://github.com/AlbaAsca/geonavidad)** — [Refresca pistas en el juego](https://github.com/AlbaAsca/geonavidad/commit/e62abcbbc7d9cd7156a9397cdc8445ca04f1effe) · 2026-11-22
 - **[lakehouse-mcp](https://github.com/AlbaAsca/lakehouse-mcp)** — [Merge pull request #1 from AlbaAsca/release/0.1.0](https://github.com/AlbaAsca/lakehouse-mcp/commit/746048606c617a6d40d038dc85e207ec8972283e) · 2026-11-08
 - **[agent-board](https://github.com/AlbaAsca/agent-board)** — [docs: add operating and token lessons from lakehouse-mcp](https://github.com/AlbaAsca/agent-board/commit/d3b7fcff3aa3532ba01aae4073cd40989851eabb) · 2026-11-07
 - **[store-sales-forecasting](https://github.com/AlbaAsca/store-sales-forecasting)** — [fix: restore moving packets in hero banner](https://github.com/AlbaAsca/store-sales-forecasting/commit/06bb0a60ae074f09ea85e2edf924b656e7a0f8d2) · 2026-11-02
