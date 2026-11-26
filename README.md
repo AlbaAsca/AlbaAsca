@@ -7,9 +7,9 @@
 </p>
 
 **Data Engineer y desarrolladora backend Java** · +5 años · España (remoto).
-Construyo pipelines de datos, servicios Spring Boot y equipos de **agentes de IA** que programan con TDD, CI y revisión, y miden su precisión estimando.
+Construyo pipelines de datos batch y en tiempo real, servicios Spring Boot y equipos de **agentes de IA** que programan con TDD, CI y revisión, y miden su precisión estimando.
 
-- 📈 **Datos y ML:** pipelines en AWS · dbt + DuckDB · pandas · LightGBM · series temporales con validación honesta
+- 📈 **Datos y ML:** pipelines en AWS · streaming con Kafka y Kafka Streams · dbt + DuckDB · pandas · LightGBM · series temporales con validación honesta
 - 🤖 **IA:** RAG local, visión por computador (OpenCV), Stable Diffusion + ControlNet, Claude Code con subagentes
 - 🎓 **Certificación:** AWS Certified AI Practitioner · 📚 **Ahora:** AWS Cloud Practitioner (nov 2026)
 - 💬 **Pregúntame por:** pipelines de datos, Spring/WebFlux, trabajar con equipos de agentes
@@ -88,4 +88,4 @@ las estimaciones.
   <a href="mailto:albaasca@gmail.com"><img src="https://img.shields.io/badge/Email-albaasca%40gmail.com-24283B?style=for-the-badge&logo=gmail&logoColor=BB9AF7" alt="Email"></a>
 </p>
 
-<sub>🇬🇧 Data Engineer & Java backend developer (5+ yrs), Spain, remote. AWS Certified AI Practitioner. Data pipelines, Spring Boot services and AI agent teams that ship with TDD and CI. Featured: a reactive Java 21 / Spring Boot 4 WebFlux API with real-time SSE, an end-to-end AWS data pipeline (Lambda, S3, dbt + DuckDB, Terraform, GitHub OIDC; built on LocalStack, < $0.01 on real AWS) and time-series forecasting on Kaggle Store Sales (RMSLE 0.457 → 0.388) with honest backtesting.</sub>
+<sub>🇬🇧 Data Engineer & Java backend developer (5+ yrs), Spain, remote. AWS Certified AI Practitioner. Data pipelines, Spring Boot services and AI agent teams that ship with TDD and CI. Featured: a real-time fraud detection pipeline (Kafka Streams, Spring Boot), a reactive Java 21 / Spring Boot 4 WebFlux API with real-time SSE, an end-to-end AWS data pipeline (Lambda, S3, dbt + DuckDB, Terraform, GitHub OIDC; built on LocalStack, < $0.01 on real AWS) and time-series forecasting on Kaggle Store Sales (RMSLE 0.457 → 0.388) with honest backtesting.</sub>
